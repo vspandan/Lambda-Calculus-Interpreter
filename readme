@@ -1,0 +1,15 @@
+Implemention of reduction based evaluation of lambda calculus expressions.
+
+
+
+;;; Abstract Syntax for the LAMBDA CALCULUS
+;;; =======================================
+
+;;; <ast> ::= 
+;;;           
+;;;           <id-ref-ast> |
+;;;           <function-ast> |
+;;;           <app-ast>
+
+;;; <function-ast> ::= (function <id> <ast>)
+;;; <app-ast>      ::= (app  <ast>  <ast> )
